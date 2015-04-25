@@ -1,0 +1,20 @@
+/* Estilos para tablas: http://www.elated.com/articles/styling-tables-with-css/ */
+table {
+border: 1px solid black;
+border-spacing:5px;
+border-collapse: collapse;
+}
+th, td {
+padding: 0.5em;
+}
+label {
+clear:both;
+float:left;
+margin:5px;
+}
+div.clear {
+clear:both;
+}
+input[readonly="readonly"] {
+background-color:#e0e0e0;
+}
